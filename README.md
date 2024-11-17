@@ -22,7 +22,7 @@ We preprocess the last three datasets in the `collate_fn` function to define the
 We evaluated the following models on all datasets:
 
 1. LSTM
-      - Architecture: 4-layer LSTM for all tasks.
+      - Architecture: 1 layer for Copy and Reverse tasks, 4 layers for Addition and Cellular Automata.
 2. Transformer
       - Backbone: GPT-Neox.
       - Architecture: 1 layer for Copy and Reverse tasks, 4 layers for Addition and Cellular Automata.
